@@ -32,11 +32,11 @@ public class AlipayInfoConstants {
     public static final String SIGN_TYPE         = "RSA2";
     
     /**开发者账号PID*/
-    public static final String PARTNER           = "2088221418844035";
+    public static final String PARTNER           = "2088111111111111";
 
     /** 服务窗appId  */
     //TODO !!!! 注：该appId必须设为开发者自己的生活号id  
-    public static final String APP_ID            = "2018031602386561";
+    public static final String APP_ID            = "2018111111111111";
 
     //TODO !!!! 注：该私钥为测试账号私钥  开发者必须设置自己的私钥 , 否则会存在安全隐患 
     public static final String PRIVATE_KEY       = "";
