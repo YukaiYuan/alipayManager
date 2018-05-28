@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.viewshine.mapper.UserMapper" >
+    <!--<resultMap id="BaseResultMap" type="cn.viewshine.entity.User" >-->
+        <!--<id column="appid" property="appid" jdbcType="VARCHAR" />-->
+        <!--<result column="key" property="key" jdbcType="VARCHAR" />-->
+        <!--<result column="alikey" property="alikey" jdbcType="VARCHAR" />-->
+    <!--</resultMap>-->
+    <select id="getUserInfoByAppid" parameterType="java.lang.String" resultType="cn.viewshine.entity.User">
+        SELECT * FROM user WHERE appid=#{_parameter}
+    </select>
+</mapper>
